@@ -1,0 +1,180 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#logo-container,
+.nav-wrapper,
+.page-footer {
+  background-color: #26a6a6;
+}
+
+header,
+main,
+footer {
+  padding-left: 300px;
+}
+
+body {
+  margin-left: 300px;
+}
+
+#cardBig {
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+.circle {
+  opacity: 1;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 50%;
+  width: 200px;
+  height: 220px;
+  border: 7px solid #009688;
+}
+.sidenav {
+  transform: translateX(0%) !important;
+  background-image: url("../images/bg1.jpg");
+}
+
+o-section--feature-companies__logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+li:hover {
+  background-color: #26a6a6;
+}
+#dropdown1:hover {
+  background-color: #26a6a6;
+}
+/* .material-icon */
+/* .background {
+  padding-top: 75px;
+   background-image: url("assets/images/bgImg1.jpg");
+  background-repeat: no-repeat;*/
+/* } */
+#imageOne,
+#imageTwo {
+  /* float: left; */
+  width: 200px;
+  height: 250px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.card-stacked {
+  box-sizing: inherit;
+}
+/* .imgSize {
+  float: left;
+  width: 200px;
+  height: 250px;
+  position: relative;
+} */
+
+#imageTwo {
+  /* float: left; */
+  width: 180px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#navbar {
+  background-color: #26a6a6;
+}
+
+/* #logofront {
+  width: 32px;
+  height: 32px;
+  /* border: 1px solid #fff; 
+} */
+
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
+h4,
+h6 {
+  font-family: Dancing Script;
+  font-weight: bold;
+}
+
+#linksToProject,
+#projectOne,
+#projectTwo,
+#projectThree {
+  text-align: center;
+  border: 1px solid #009688;
+}
+/* 
+#profileImgTwo {
+  float: left;
+}
+.row {
+  width: 500px;
+  height: 500px;
+} */
+
+@media only screen and (min-width: 600px) {
+  #cardSmall,
+  #contentTwo,
+  #actionTwo,
+  #imageTwo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #cardBig,
+  #contentOne,
+  #actionOne,
+  #imageOne {
+    display: none;
+  }
+}
+#cardBig {
+  border: 1px solid #009688;
+  margin-top: 25px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #009688;
+}
+#cardPortfolio {
+  border: 1px solid #009688;
+  margin-top: 25px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #009688;
+  width: 500px;
+  margin-left: 15px;
+}
